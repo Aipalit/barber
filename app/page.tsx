@@ -5,10 +5,14 @@ import { Button } from "./components/ui/button"
 
 const Home = ( ) =>{
   
-return <html><body>
-   <Button >Destructive</Button>
-</body></html>
+return (
+   <div>
+      <Button>Click me</Button>
+   </div>
+)
+
+
 
 }
 
-export default Home
+export default Home 
