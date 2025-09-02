@@ -9,7 +9,7 @@
   --card-foreground: 224 71% 4%;
   --popover: 0 0% 100%;
   --popover-foreground: 224 71% 4%;
-  --primary: 252 100% 69%;
+  --primary: 213 100% 50%;
   --primary-foreground: 0 0% 100%;
   --secondary: 220 14% 96%;
   --secondary-foreground: 220 13% 26%;
@@ -33,7 +33,7 @@
   --card-foreground: 210 40% 98%;
   --popover: 228 9% 11%;
   --popover-foreground: 210 40% 98%;
-  --primary: 252 100% 69%;
+  --primary: 213 100% 50%;
   --primary-foreground: 0 0% 100%;
   --secondary: 228 6% 16%;
   --secondary-foreground: 210 40% 98%;
@@ -45,7 +45,7 @@
   --destructive-foreground: 210 40% 98%;
   --border: 228 6% 16%;
   --input: 228 6% 16%;
-  --ring: 213 27% 84%;
+  --ring: 213 100% 50%;
 }
 
 /* Aplicando as variáveis ao tema do Tailwind */
