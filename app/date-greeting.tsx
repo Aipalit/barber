@@ -1,7 +1,7 @@
 export default function ServerDateGreeting() {
   const currentDate = new Date()
 
-  // Formatar data em português (lado do servidor)
+  // Formatar data em BR (lado do servidor)
   const formattedDate = currentDate.toLocaleDateString("pt-BR", {
     weekday: "long",
     day: "2-digit",
@@ -26,12 +26,11 @@ export default function ServerDateGreeting() {
 
   return (
     <div className="space-y-2 text-center">
-      * Saudação *
+      {/* Saudação  */}
       <h1 className="text-2xl font-light text-gray-800 md:text-3xl dark:text-gray-200">
         {getServerGreeting()}, User!
       </h1>
-
-       Data do Servidor *
+      {/* Data do Servidor */}
       <div className="text-lg text-gray-600 md:text-xl dark:text-gray-400">
         <span className="font-medium">
           {capitalizeFirstLetter(weekday.trim())}

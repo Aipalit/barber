@@ -75,7 +75,7 @@
 /* Estilos globais */
 * {
   border-color: hsl(var(--border));
-  @apply antialiased;
+  @apply border-border antialiased;
 }
 
 html {
